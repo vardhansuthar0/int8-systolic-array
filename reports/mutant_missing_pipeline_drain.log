@@ -1,0 +1,3 @@
+[120000] %Fatal: tb.sv:45: Assertion failed in tb.unnamedblk10.unnamedblk11: MISMATCH test=1 row=3 col=3 got=0 expected=99
+%Error: /workspace/scratch/b57e6f2fe1fb/int8-systolic/build/missing_pipeline_drain/tb.sv:45: Verilog $stop
+Aborting...

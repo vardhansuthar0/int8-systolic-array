@@ -1,0 +1,32 @@
+[
+  {
+    "mutation": "unsigned_product",
+    "detected": true,
+    "returncode": 1,
+    "diagnostic": [
+      "[120000] %Fatal: tb.sv:45: Assertion failed in tb.unnamedblk10.unnamedblk11: MISMATCH test=1 row=0 col=0 got=210 expected=-46",
+      "%Error: /workspace/scratch/b57e6f2fe1fb/int8-systolic/build/unsigned_product/tb.sv:45: Verilog $stop",
+      "Aborting..."
+    ]
+  },
+  {
+    "mutation": "missing_acc_clear",
+    "detected": true,
+    "returncode": 1,
+    "diagnostic": [
+      "[126000] %Error: mac_pe.sv:19: Assertion failed in tb.dut.row[0].col[0].pe.a_reset: 'assert' failed.",
+      "%Error: /workspace/scratch/b57e6f2fe1fb/int8-systolic/build/missing_acc_clear/mac_pe.sv:19: Verilog $stop",
+      "Aborting..."
+    ]
+  },
+  {
+    "mutation": "missing_pipeline_drain",
+    "detected": true,
+    "returncode": 1,
+    "diagnostic": [
+      "[120000] %Fatal: tb.sv:45: Assertion failed in tb.unnamedblk10.unnamedblk11: MISMATCH test=1 row=3 col=3 got=0 expected=99",
+      "%Error: /workspace/scratch/b57e6f2fe1fb/int8-systolic/build/missing_pipeline_drain/tb.sv:45: Verilog $stop",
+      "Aborting..."
+    ]
+  }
+]

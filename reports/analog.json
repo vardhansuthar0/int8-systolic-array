@@ -1,0 +1,194 @@
+{
+  "model": "Illustrative LEVEL=1 CMOS; hand-varied KP/VTO, not PDK process corners",
+  "cases": [
+    {
+      "corner": "slow",
+      "voltage_V": 1.62,
+      "temperature_C": -40,
+      "frequency_Hz": 4047010068.961051,
+      "power_W": 0.00053128062
+    },
+    {
+      "corner": "slow",
+      "voltage_V": 1.62,
+      "temperature_C": 25,
+      "frequency_Hz": 3352350097.9891934,
+      "power_W": 0.0004406306040000001
+    },
+    {
+      "corner": "slow",
+      "voltage_V": 1.62,
+      "temperature_C": 125,
+      "frequency_Hz": 2871823619.485668,
+      "power_W": 0.00038033064000000006
+    },
+    {
+      "corner": "slow",
+      "voltage_V": 1.8,
+      "temperature_C": -40,
+      "frequency_Hz": 5154575407.3145485,
+      "power_W": 0.00083627568
+    },
+    {
+      "corner": "slow",
+      "voltage_V": 1.8,
+      "temperature_C": 25,
+      "frequency_Hz": 4161128897.62541,
+      "power_W": 0.00067633956
+    },
+    {
+      "corner": "slow",
+      "voltage_V": 1.8,
+      "temperature_C": 125,
+      "frequency_Hz": 3435384876.473866,
+      "power_W": 0.0005641731
+    },
+    {
+      "corner": "slow",
+      "voltage_V": 1.98,
+      "temperature_C": -40,
+      "frequency_Hz": 6312230704.457571,
+      "power_W": 0.0012404014920000001
+    },
+    {
+      "corner": "slow",
+      "voltage_V": 1.98,
+      "temperature_C": 25,
+      "frequency_Hz": 4998143189.804988,
+      "power_W": 0.000985240872
+    },
+    {
+      "corner": "slow",
+      "voltage_V": 1.98,
+      "temperature_C": 125,
+      "frequency_Hz": 4010782587.909335,
+      "power_W": 0.0007995598379999999
+    },
+    {
+      "corner": "typical",
+      "voltage_V": 1.62,
+      "temperature_C": -40,
+      "frequency_Hz": 5614608762.832188,
+      "power_W": 0.0007373400840000001
+    },
+    {
+      "corner": "typical",
+      "voltage_V": 1.62,
+      "temperature_C": 25,
+      "frequency_Hz": 4617043909.934401,
+      "power_W": 0.0006075486000000001
+    },
+    {
+      "corner": "typical",
+      "voltage_V": 1.62,
+      "temperature_C": 125,
+      "frequency_Hz": 3913344465.4938893,
+      "power_W": 0.000521055828
+    },
+    {
+      "corner": "typical",
+      "voltage_V": 1.8,
+      "temperature_C": -40,
+      "frequency_Hz": 7043682098.904567,
+      "power_W": 0.00114373512
+    },
+    {
+      "corner": "typical",
+      "voltage_V": 1.8,
+      "temperature_C": 25,
+      "frequency_Hz": 5655631963.143378,
+      "power_W": 0.0009212745600000001
+    },
+    {
+      "corner": "typical",
+      "voltage_V": 1.8,
+      "temperature_C": 125,
+      "frequency_Hz": 4630705839.968363,
+      "power_W": 0.0007644177
+    },
+    {
+      "corner": "typical",
+      "voltage_V": 1.98,
+      "temperature_C": -40,
+      "frequency_Hz": 8528391869.372328,
+      "power_W": 0.00167814504
+    },
+    {
+      "corner": "typical",
+      "voltage_V": 1.98,
+      "temperature_C": 25,
+      "frequency_Hz": 6724890770.961653,
+      "power_W": 0.00132973632
+    },
+    {
+      "corner": "typical",
+      "voltage_V": 1.98,
+      "temperature_C": 125,
+      "frequency_Hz": 5360427075.945994,
+      "power_W": 0.0010755700559999999
+    },
+    {
+      "corner": "fast",
+      "voltage_V": 1.62,
+      "temperature_C": -40,
+      "frequency_Hz": 7445417643.257281,
+      "power_W": 0.00097900488
+    },
+    {
+      "corner": "fast",
+      "voltage_V": 1.62,
+      "temperature_C": 25,
+      "frequency_Hz": 6081459939.59894,
+      "power_W": 0.0008025005340000001
+    },
+    {
+      "corner": "fast",
+      "voltage_V": 1.62,
+      "temperature_C": 125,
+      "frequency_Hz": 5102215228.785882,
+      "power_W": 0.0006836377320000001
+    },
+    {
+      "corner": "fast",
+      "voltage_V": 1.8,
+      "temperature_C": -40,
+      "frequency_Hz": 9210579640.197916,
+      "power_W": 0.0014975703
+    },
+    {
+      "corner": "fast",
+      "voltage_V": 1.8,
+      "temperature_C": 25,
+      "frequency_Hz": 7357869867.241954,
+      "power_W": 0.0012026635200000002
+    },
+    {
+      "corner": "fast",
+      "voltage_V": 1.8,
+      "temperature_C": 125,
+      "frequency_Hz": 5976018238.807665,
+      "power_W": 0.00099365382
+    },
+    {
+      "corner": "fast",
+      "voltage_V": 1.98,
+      "temperature_C": -40,
+      "frequency_Hz": 11033979913.522285,
+      "power_W": 0.00217716246
+    },
+    {
+      "corner": "fast",
+      "voltage_V": 1.98,
+      "temperature_C": 25,
+      "frequency_Hz": 8665623903.256975,
+      "power_W": 0.001720109754
+    },
+    {
+      "corner": "fast",
+      "voltage_V": 1.98,
+      "temperature_C": 125,
+      "frequency_Hz": 6862391213.943281,
+      "power_W": 0.00138733353
+    }
+  ]
+}

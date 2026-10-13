@@ -1,0 +1,74 @@
+[
+  {
+    "n": 2,
+    "pipe": 0,
+    "generic_cells": 2865,
+    "cell_types": {
+      "$_SDFF_PP0_": 160,
+      "$_AND_": 1308,
+      "$_XOR_": 876,
+      "$_OR_": 489,
+      "$_NOT_": 32
+    }
+  },
+  {
+    "n": 2,
+    "pipe": 1,
+    "generic_cells": 2929,
+    "cell_types": {
+      "$_SDFF_PP0_": 224,
+      "$_AND_": 1308,
+      "$_XOR_": 876,
+      "$_OR_": 489,
+      "$_NOT_": 32
+    }
+  },
+  {
+    "n": 4,
+    "pipe": 0,
+    "generic_cells": 11521,
+    "cell_types": {
+      "$_SDFF_PP0_": 704,
+      "$_OR_": 1953,
+      "$_XOR_": 3504,
+      "$_AND_": 5232,
+      "$_NOT_": 128
+    }
+  },
+  {
+    "n": 4,
+    "pipe": 1,
+    "generic_cells": 11777,
+    "cell_types": {
+      "$_SDFF_PP0_": 960,
+      "$_OR_": 1953,
+      "$_XOR_": 3504,
+      "$_AND_": 5232,
+      "$_NOT_": 128
+    }
+  },
+  {
+    "n": 8,
+    "pipe": 0,
+    "generic_cells": 46209,
+    "cell_types": {
+      "$_SDFF_PP0_": 2944,
+      "$_AND_": 20928,
+      "$_XOR_": 14016,
+      "$_OR_": 7809,
+      "$_NOT_": 512
+    }
+  },
+  {
+    "n": 8,
+    "pipe": 1,
+    "generic_cells": 47233,
+    "cell_types": {
+      "$_SDFF_PP0_": 3968,
+      "$_AND_": 20928,
+      "$_XOR_": 14016,
+      "$_OR_": 7809,
+      "$_NOT_": 512
+    }
+  }
+]

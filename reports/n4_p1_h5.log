@@ -1,0 +1,5 @@
+PASS N=4 PIPE=1 TESTS=1207 CYCLES=14565 RESET_TRIALS=13
+- tb/tb.sv:51: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.49
+- Verilator: $finish at 146us; walltime 0.028 s; speed 5.175 ms/s
+- Verilator: cpu 0.028 s on 1 threads; allocated 6 MB

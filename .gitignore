@@ -1,0 +1,7 @@
+build/
+vectors/
+__pycache__/
+*.pyc
+core
+core.*
+reports/synth_n*_p*.json

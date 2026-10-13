@@ -1,0 +1,34 @@
+Note: can't find the initialization file spinit.
+Using SPARSE 1.3 as Direct Linear Solver
+
+Note: No compatibility mode selected!
+
+
+Circuit: * five-stage cmos ring oscillator; illustrative level-1 models, not a foundry pdk.
+
+Doing analysis at TEMP = -40.000000 and TNOM = 27.000000
+
+Using transient initial conditions
+
+No. of Data Rows : 20011
+
+  Measurements for Transient Analysis
+
+period              =  1.085708e-10 targ=  2.176907e-09 trig=  2.068336e-09
+avg_supply_current  =  -8.319835e-04 from=  5.000000e-09 to=  2.000000e-08
+
+
+Total analysis time (seconds) = 0.116
+
+Total elapsed time (seconds) = 0.119 
+
+Total DRAM available = 9990.543 MB.
+DRAM currently available = 9381.133 MB.
+Maximum ngspice program size =   21.293 MB.
+Current ngspice program size =    9.777 MB.
+
+Shared ngspice pages =    7.531 MB.
+Text (code) pages =    6.156 MB.
+Stack = 0 bytes.
+Library pages =    2.406 MB.
+

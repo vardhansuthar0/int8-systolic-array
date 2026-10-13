@@ -1,0 +1,1866 @@
+
+-- Running command `read_verilog -sv -DSYNTHESIS rtl/mac_pe.sv build/array_n8_p1.sv; synth -top systolic_array -flatten -noabc; check -assert; stat; write_json reports/synth_n8_p1.json' --
+
+1. Executing Verilog-2005 frontend: rtl/mac_pe.sv
+Parsing SystemVerilog input from `rtl/mac_pe.sv' to AST representation.
+Generating RTLIL representation for module `\mac_pe'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: build/array_n8_p1.sv
+Parsing SystemVerilog input from `build/array_n8_p1.sv' to AST representation.
+Generating RTLIL representation for module `\systolic_array'.
+Successfully finished Verilog frontend.
+
+3. Executing SYNTH pass.
+
+3.1. Executing HIERARCHY pass (managing design hierarchy).
+
+3.1.1. Analyzing design hierarchy..
+Top module:  \systolic_array
+Used module:     \mac_pe
+Parameter \PIPE = 1'1
+
+3.1.2. Executing AST frontend in derive mode using pre-parsed AST for module `\mac_pe'.
+Parameter \PIPE = 1'1
+Generating RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Reprocessing module systolic_array because instantiated module $paramod\mac_pe\PIPE=1'1 has become available.
+Generating RTLIL representation for module `\systolic_array'.
+
+3.1.3. Analyzing design hierarchy..
+Top module:  \systolic_array
+Used module:     \mac_pe
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+Parameter \PIPE = 1'1
+Found cached RTLIL representation for module `$paramod\mac_pe\PIPE=1'1'.
+
+3.1.4. Analyzing design hierarchy..
+Top module:  \systolic_array
+Used module:     $paramod\mac_pe\PIPE=1'1
+
+3.1.5. Analyzing design hierarchy..
+Top module:  \systolic_array
+Used module:     $paramod\mac_pe\PIPE=1'1
+Removing unused module `\mac_pe'.
+Removed 1 unused modules.
+
+3.2. Executing PROC pass (convert processes to netlists).
+
+3.2.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+3.2.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 1 switch rules as full_case in process $proc$rtl/mac_pe.sv:10$24 in module $paramod\mac_pe\PIPE=1'1.
+Removed a total of 0 dead cases.
+
+3.2.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 4 redundant assignments.
+Promoted 144 assignments to connections.
+
+3.2.4. Executing PROC_INIT pass (extract init attributes).
+
+3.2.5. Executing PROC_ARST pass (detect async resets in processes).
+
+3.2.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~1 debug messages>
+
+3.2.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `$paramod\mac_pe\PIPE=1'1.$proc$rtl/mac_pe.sv:10$24'.
+     1/4: $0\product_q[15:0]
+     2/4: $0\acc[31:0]
+     3/4: $0\b_out[7:0]
+     4/4: $0\a_out[7:0]
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$490'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$489'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$488'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$487'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$486'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$485'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$484'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$483'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$482'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$481'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$480'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$479'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$478'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$477'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$476'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$475'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:11$474'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:10$473'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$472'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$471'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$470'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$469'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$468'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$467'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$466'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$465'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$464'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$463'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$462'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$461'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$460'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$459'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$458'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$457'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:11$456'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:10$455'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$454'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$453'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$452'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$451'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$450'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$449'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$448'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$447'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$446'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$445'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$444'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$443'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$442'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$441'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$440'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$439'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:11$438'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:10$437'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$436'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$435'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$434'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$433'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$432'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$431'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$430'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$429'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$428'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$427'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$426'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$425'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$424'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$423'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$422'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$421'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:11$420'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:10$419'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$418'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$417'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$416'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$415'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$414'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$413'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$412'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$411'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$410'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$409'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$408'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$407'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$406'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$405'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$404'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$403'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:11$402'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:10$401'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$400'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$399'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$398'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$397'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$396'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$395'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$394'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$393'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$392'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$391'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$390'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$389'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$388'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$387'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$386'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$385'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:11$384'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:10$383'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$382'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$381'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$380'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$379'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$378'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$377'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$376'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$375'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$374'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$373'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$372'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$371'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$370'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$369'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$368'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$367'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:11$366'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:10$365'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$364'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$363'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$362'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$361'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$360'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$359'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$358'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$357'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$356'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$355'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$354'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$353'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$352'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$351'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$350'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:14$349'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:11$348'.
+Creating decoders for process `\systolic_array.$proc$build/array_n8_p1.sv:10$347'.
+
+3.2.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\systolic_array.\b[71]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$490'.
+No latch inferred for signal `\systolic_array.\a[71]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$489'.
+No latch inferred for signal `\systolic_array.\b[70]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$488'.
+No latch inferred for signal `\systolic_array.\a[70]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$487'.
+No latch inferred for signal `\systolic_array.\b[69]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$486'.
+No latch inferred for signal `\systolic_array.\a[69]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$485'.
+No latch inferred for signal `\systolic_array.\b[68]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$484'.
+No latch inferred for signal `\systolic_array.\a[68]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$483'.
+No latch inferred for signal `\systolic_array.\b[67]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$482'.
+No latch inferred for signal `\systolic_array.\a[67]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$481'.
+No latch inferred for signal `\systolic_array.\b[66]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$480'.
+No latch inferred for signal `\systolic_array.\a[66]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$479'.
+No latch inferred for signal `\systolic_array.\b[65]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$478'.
+No latch inferred for signal `\systolic_array.\a[65]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$477'.
+No latch inferred for signal `\systolic_array.\b[64]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$476'.
+No latch inferred for signal `\systolic_array.\a[64]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$475'.
+No latch inferred for signal `\systolic_array.\b[7]' from process `\systolic_array.$proc$build/array_n8_p1.sv:11$474'.
+No latch inferred for signal `\systolic_array.\a[63]' from process `\systolic_array.$proc$build/array_n8_p1.sv:10$473'.
+No latch inferred for signal `\systolic_array.\b[63]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$472'.
+No latch inferred for signal `\systolic_array.\a[62]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$471'.
+No latch inferred for signal `\systolic_array.\b[62]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$470'.
+No latch inferred for signal `\systolic_array.\a[61]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$469'.
+No latch inferred for signal `\systolic_array.\b[61]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$468'.
+No latch inferred for signal `\systolic_array.\a[60]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$467'.
+No latch inferred for signal `\systolic_array.\b[60]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$466'.
+No latch inferred for signal `\systolic_array.\a[59]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$465'.
+No latch inferred for signal `\systolic_array.\b[59]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$464'.
+No latch inferred for signal `\systolic_array.\a[58]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$463'.
+No latch inferred for signal `\systolic_array.\b[58]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$462'.
+No latch inferred for signal `\systolic_array.\a[57]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$461'.
+No latch inferred for signal `\systolic_array.\b[57]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$460'.
+No latch inferred for signal `\systolic_array.\a[56]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$459'.
+No latch inferred for signal `\systolic_array.\b[56]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$458'.
+No latch inferred for signal `\systolic_array.\a[55]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$457'.
+No latch inferred for signal `\systolic_array.\b[6]' from process `\systolic_array.$proc$build/array_n8_p1.sv:11$456'.
+No latch inferred for signal `\systolic_array.\a[54]' from process `\systolic_array.$proc$build/array_n8_p1.sv:10$455'.
+No latch inferred for signal `\systolic_array.\b[55]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$454'.
+No latch inferred for signal `\systolic_array.\a[53]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$453'.
+No latch inferred for signal `\systolic_array.\b[54]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$452'.
+No latch inferred for signal `\systolic_array.\a[52]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$451'.
+No latch inferred for signal `\systolic_array.\b[53]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$450'.
+No latch inferred for signal `\systolic_array.\a[51]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$449'.
+No latch inferred for signal `\systolic_array.\b[52]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$448'.
+No latch inferred for signal `\systolic_array.\a[50]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$447'.
+No latch inferred for signal `\systolic_array.\b[51]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$446'.
+No latch inferred for signal `\systolic_array.\a[49]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$445'.
+No latch inferred for signal `\systolic_array.\b[50]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$444'.
+No latch inferred for signal `\systolic_array.\a[48]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$443'.
+No latch inferred for signal `\systolic_array.\b[49]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$442'.
+No latch inferred for signal `\systolic_array.\a[47]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$441'.
+No latch inferred for signal `\systolic_array.\b[48]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$440'.
+No latch inferred for signal `\systolic_array.\a[46]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$439'.
+No latch inferred for signal `\systolic_array.\b[5]' from process `\systolic_array.$proc$build/array_n8_p1.sv:11$438'.
+No latch inferred for signal `\systolic_array.\a[45]' from process `\systolic_array.$proc$build/array_n8_p1.sv:10$437'.
+No latch inferred for signal `\systolic_array.\b[47]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$436'.
+No latch inferred for signal `\systolic_array.\a[44]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$435'.
+No latch inferred for signal `\systolic_array.\b[46]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$434'.
+No latch inferred for signal `\systolic_array.\a[43]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$433'.
+No latch inferred for signal `\systolic_array.\b[45]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$432'.
+No latch inferred for signal `\systolic_array.\a[42]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$431'.
+No latch inferred for signal `\systolic_array.\b[44]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$430'.
+No latch inferred for signal `\systolic_array.\a[41]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$429'.
+No latch inferred for signal `\systolic_array.\b[43]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$428'.
+No latch inferred for signal `\systolic_array.\a[40]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$427'.
+No latch inferred for signal `\systolic_array.\b[42]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$426'.
+No latch inferred for signal `\systolic_array.\a[39]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$425'.
+No latch inferred for signal `\systolic_array.\b[41]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$424'.
+No latch inferred for signal `\systolic_array.\a[38]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$423'.
+No latch inferred for signal `\systolic_array.\b[40]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$422'.
+No latch inferred for signal `\systolic_array.\a[37]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$421'.
+No latch inferred for signal `\systolic_array.\b[4]' from process `\systolic_array.$proc$build/array_n8_p1.sv:11$420'.
+No latch inferred for signal `\systolic_array.\a[36]' from process `\systolic_array.$proc$build/array_n8_p1.sv:10$419'.
+No latch inferred for signal `\systolic_array.\b[39]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$418'.
+No latch inferred for signal `\systolic_array.\a[35]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$417'.
+No latch inferred for signal `\systolic_array.\b[38]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$416'.
+No latch inferred for signal `\systolic_array.\a[34]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$415'.
+No latch inferred for signal `\systolic_array.\b[37]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$414'.
+No latch inferred for signal `\systolic_array.\a[33]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$413'.
+No latch inferred for signal `\systolic_array.\b[36]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$412'.
+No latch inferred for signal `\systolic_array.\a[32]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$411'.
+No latch inferred for signal `\systolic_array.\b[35]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$410'.
+No latch inferred for signal `\systolic_array.\a[31]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$409'.
+No latch inferred for signal `\systolic_array.\b[34]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$408'.
+No latch inferred for signal `\systolic_array.\a[30]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$407'.
+No latch inferred for signal `\systolic_array.\b[33]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$406'.
+No latch inferred for signal `\systolic_array.\a[29]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$405'.
+No latch inferred for signal `\systolic_array.\b[32]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$404'.
+No latch inferred for signal `\systolic_array.\a[28]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$403'.
+No latch inferred for signal `\systolic_array.\b[3]' from process `\systolic_array.$proc$build/array_n8_p1.sv:11$402'.
+No latch inferred for signal `\systolic_array.\a[27]' from process `\systolic_array.$proc$build/array_n8_p1.sv:10$401'.
+No latch inferred for signal `\systolic_array.\b[31]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$400'.
+No latch inferred for signal `\systolic_array.\a[26]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$399'.
+No latch inferred for signal `\systolic_array.\b[30]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$398'.
+No latch inferred for signal `\systolic_array.\a[25]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$397'.
+No latch inferred for signal `\systolic_array.\b[29]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$396'.
+No latch inferred for signal `\systolic_array.\a[24]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$395'.
+No latch inferred for signal `\systolic_array.\b[28]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$394'.
+No latch inferred for signal `\systolic_array.\a[23]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$393'.
+No latch inferred for signal `\systolic_array.\b[27]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$392'.
+No latch inferred for signal `\systolic_array.\a[22]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$391'.
+No latch inferred for signal `\systolic_array.\b[26]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$390'.
+No latch inferred for signal `\systolic_array.\a[21]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$389'.
+No latch inferred for signal `\systolic_array.\b[25]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$388'.
+No latch inferred for signal `\systolic_array.\a[20]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$387'.
+No latch inferred for signal `\systolic_array.\b[24]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$386'.
+No latch inferred for signal `\systolic_array.\a[19]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$385'.
+No latch inferred for signal `\systolic_array.\b[2]' from process `\systolic_array.$proc$build/array_n8_p1.sv:11$384'.
+No latch inferred for signal `\systolic_array.\a[18]' from process `\systolic_array.$proc$build/array_n8_p1.sv:10$383'.
+No latch inferred for signal `\systolic_array.\b[23]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$382'.
+No latch inferred for signal `\systolic_array.\a[17]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$381'.
+No latch inferred for signal `\systolic_array.\b[22]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$380'.
+No latch inferred for signal `\systolic_array.\a[16]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$379'.
+No latch inferred for signal `\systolic_array.\b[21]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$378'.
+No latch inferred for signal `\systolic_array.\a[15]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$377'.
+No latch inferred for signal `\systolic_array.\b[20]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$376'.
+No latch inferred for signal `\systolic_array.\a[14]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$375'.
+No latch inferred for signal `\systolic_array.\b[19]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$374'.
+No latch inferred for signal `\systolic_array.\a[13]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$373'.
+No latch inferred for signal `\systolic_array.\b[18]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$372'.
+No latch inferred for signal `\systolic_array.\a[12]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$371'.
+No latch inferred for signal `\systolic_array.\b[17]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$370'.
+No latch inferred for signal `\systolic_array.\a[11]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$369'.
+No latch inferred for signal `\systolic_array.\b[16]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$368'.
+No latch inferred for signal `\systolic_array.\a[10]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$367'.
+No latch inferred for signal `\systolic_array.\b[1]' from process `\systolic_array.$proc$build/array_n8_p1.sv:11$366'.
+No latch inferred for signal `\systolic_array.\a[9]' from process `\systolic_array.$proc$build/array_n8_p1.sv:10$365'.
+No latch inferred for signal `\systolic_array.\b[15]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$364'.
+No latch inferred for signal `\systolic_array.\a[8]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$363'.
+No latch inferred for signal `\systolic_array.\b[14]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$362'.
+No latch inferred for signal `\systolic_array.\a[7]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$361'.
+No latch inferred for signal `\systolic_array.\b[13]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$360'.
+No latch inferred for signal `\systolic_array.\a[6]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$359'.
+No latch inferred for signal `\systolic_array.\b[12]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$358'.
+No latch inferred for signal `\systolic_array.\a[5]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$357'.
+No latch inferred for signal `\systolic_array.\b[11]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$356'.
+No latch inferred for signal `\systolic_array.\a[4]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$355'.
+No latch inferred for signal `\systolic_array.\b[10]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$354'.
+No latch inferred for signal `\systolic_array.\a[3]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$353'.
+No latch inferred for signal `\systolic_array.\b[9]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$352'.
+No latch inferred for signal `\systolic_array.\a[2]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$351'.
+No latch inferred for signal `\systolic_array.\b[8]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$350'.
+No latch inferred for signal `\systolic_array.\a[1]' from process `\systolic_array.$proc$build/array_n8_p1.sv:14$349'.
+No latch inferred for signal `\systolic_array.\b[0]' from process `\systolic_array.$proc$build/array_n8_p1.sv:11$348'.
+No latch inferred for signal `\systolic_array.\a[0]' from process `\systolic_array.$proc$build/array_n8_p1.sv:10$347'.
+
+3.2.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `$paramod\mac_pe\PIPE=1'1.\a_out' using process `$paramod\mac_pe\PIPE=1'1.$proc$rtl/mac_pe.sv:10$24'.
+  created $dff cell `$procdff$503' with positive edge clock.
+Creating register for signal `$paramod\mac_pe\PIPE=1'1.\b_out' using process `$paramod\mac_pe\PIPE=1'1.$proc$rtl/mac_pe.sv:10$24'.
+  created $dff cell `$procdff$504' with positive edge clock.
+Creating register for signal `$paramod\mac_pe\PIPE=1'1.\acc' using process `$paramod\mac_pe\PIPE=1'1.$proc$rtl/mac_pe.sv:10$24'.
+  created $dff cell `$procdff$505' with positive edge clock.
+Creating register for signal `$paramod\mac_pe\PIPE=1'1.\product_q' using process `$paramod\mac_pe\PIPE=1'1.$proc$rtl/mac_pe.sv:10$24'.
+  created $dff cell `$procdff$506' with positive edge clock.
+
+3.2.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+3.2.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Found and cleaned up 1 empty switch in `$paramod\mac_pe\PIPE=1'1.$proc$rtl/mac_pe.sv:10$24'.
+Removing empty process `$paramod\mac_pe\PIPE=1'1.$proc$rtl/mac_pe.sv:10$24'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$490'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$489'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$488'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$487'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$486'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$485'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$484'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$483'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$482'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$481'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$480'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$479'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$478'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$477'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$476'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$475'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:11$474'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:10$473'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$472'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$471'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$470'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$469'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$468'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$467'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$466'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$465'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$464'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$463'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$462'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$461'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$460'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$459'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$458'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$457'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:11$456'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:10$455'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$454'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$453'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$452'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$451'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$450'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$449'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$448'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$447'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$446'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$445'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$444'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$443'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$442'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$441'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$440'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$439'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:11$438'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:10$437'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$436'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$435'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$434'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$433'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$432'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$431'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$430'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$429'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$428'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$427'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$426'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$425'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$424'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$423'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$422'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$421'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:11$420'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:10$419'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$418'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$417'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$416'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$415'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$414'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$413'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$412'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$411'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$410'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$409'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$408'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$407'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$406'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$405'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$404'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$403'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:11$402'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:10$401'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$400'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$399'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$398'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$397'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$396'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$395'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$394'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$393'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$392'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$391'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$390'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$389'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$388'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$387'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$386'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$385'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:11$384'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:10$383'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$382'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$381'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$380'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$379'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$378'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$377'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$376'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$375'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$374'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$373'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$372'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$371'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$370'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$369'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$368'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$367'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:11$366'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:10$365'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$364'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$363'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$362'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$361'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$360'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$359'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$358'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$357'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$356'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$355'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$354'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$353'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$352'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$351'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$350'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:14$349'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:11$348'.
+Removing empty process `systolic_array.$proc$build/array_n8_p1.sv:10$347'.
+Cleaned up 1 empty switch.
+
+3.2.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod\mac_pe\PIPE=1'1.
+Optimizing module systolic_array.
+
+3.3. Executing CHECK pass (checking for obvious problems).
+Checking module $paramod\mac_pe\PIPE=1'1...
+Checking module systolic_array...
+Found and reported 0 problems.
+
+3.4. Executing FLATTEN pass (flatten design).
+Deleting now unused module $paramod\mac_pe\PIPE=1'1.
+<suppressed ~64 debug messages>
+
+3.5. Executing OPT_EXPR pass (perform const folding).
+Optimizing module systolic_array.
+
+3.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \systolic_array..
+Removed 32 unused cells and 1088 unused wires.
+<suppressed ~65 debug messages>
+
+3.7. Executing CHECK pass (checking for obvious problems).
+Checking module systolic_array...
+Found and reported 0 problems.
+
+3.8. Executing OPT pass (performing simple optimizations).
+
+3.8.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module systolic_array.
+
+3.8.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\systolic_array'.
+Computing hashes of 736 cells of `\systolic_array'.
+Finding duplicate cells in `\systolic_array'.
+Computing hashes of 673 cells of `\systolic_array'.
+Finding duplicate cells in `\systolic_array'.
+<suppressed ~189 debug messages>
+Removed a total of 63 cells.
+
+3.8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \systolic_array..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~480 debug messages>
+
+3.8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \systolic_array.
+Performed a total of 0 changes.
+
+3.8.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\systolic_array'.
+Computing hashes of 673 cells of `\systolic_array'.
+Finding duplicate cells in `\systolic_array'.
+Removed a total of 0 cells.
+
+3.8.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+3.8.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \systolic_array..
+Removed 0 unused cells and 63 unused wires.
+<suppressed ~1 debug messages>
+
+3.8.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module systolic_array.
+
+3.8.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+3.8.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \systolic_array..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~480 debug messages>
+
+3.8.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \systolic_array.
+Performed a total of 0 changes.
+
+3.8.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\systolic_array'.
+Computing hashes of 673 cells of `\systolic_array'.
+Finding duplicate cells in `\systolic_array'.
+Removed a total of 0 cells.
+
+3.8.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+3.8.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \systolic_array..
+
+3.8.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module systolic_array.
+
+3.8.16. Finished fast OPT passes. (There is nothing left to do.)
+
+3.9. Executing FSM pass (extract and optimize FSM).
+
+3.9.1. Executing FSM_DETECT pass (finding FSMs in design).
+
+3.9.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+
+3.9.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+3.9.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \systolic_array..
+
+3.9.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+3.9.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+
+3.9.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+
+3.9.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+
+3.10. Executing OPT pass (performing simple optimizations).
+
+3.10.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module systolic_array.
+
+3.10.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\systolic_array'.
+Computing hashes of 673 cells of `\systolic_array'.
+Finding duplicate cells in `\systolic_array'.
+Removed a total of 0 cells.
+
+3.10.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \systolic_array..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~480 debug messages>
+
+3.10.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \systolic_array.
+Performed a total of 0 changes.
+
+3.10.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\systolic_array'.
+Computing hashes of 673 cells of `\systolic_array'.
+Finding duplicate cells in `\systolic_array'.
+Removed a total of 0 cells.
+
+3.10.6. Executing OPT_DFF pass (perform DFF optimizations).
+Adding SRST signal on $flatten\row[0].col[0].pe.$procdff$506 ($dff) from module systolic_array (D = \row[0].col[0].pe.product, Q = \row[0].col[0].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[0].col[0].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[0].col[0].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[0].col[0].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[0].col[0].pe.$procdff$504 ($dff) from module systolic_array (D = \b_top [7:0], Q = \row[0].col[0].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[0].col[0].pe.$procdff$503 ($dff) from module systolic_array (D = \a_left [7:0], Q = \row[0].col[0].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[0].col[1].pe.$procdff$506 ($dff) from module systolic_array (D = \row[0].col[1].pe.product, Q = \row[0].col[1].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[0].col[1].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[0].col[1].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[0].col[1].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[0].col[1].pe.$procdff$504 ($dff) from module systolic_array (D = \b_top [15:8], Q = \row[0].col[1].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[0].col[1].pe.$procdff$503 ($dff) from module systolic_array (D = \row[0].col[0].pe.a_out, Q = \row[0].col[1].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[0].col[2].pe.$procdff$506 ($dff) from module systolic_array (D = \row[0].col[2].pe.product, Q = \row[0].col[2].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[0].col[2].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[0].col[2].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[0].col[2].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[0].col[2].pe.$procdff$504 ($dff) from module systolic_array (D = \b_top [23:16], Q = \row[0].col[2].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[0].col[2].pe.$procdff$503 ($dff) from module systolic_array (D = \row[0].col[1].pe.a_out, Q = \row[0].col[2].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[0].col[3].pe.$procdff$506 ($dff) from module systolic_array (D = \row[0].col[3].pe.product, Q = \row[0].col[3].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[0].col[3].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[0].col[3].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[0].col[3].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[0].col[3].pe.$procdff$504 ($dff) from module systolic_array (D = \b_top [31:24], Q = \row[0].col[3].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[0].col[3].pe.$procdff$503 ($dff) from module systolic_array (D = \row[0].col[2].pe.a_out, Q = \row[0].col[3].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[0].col[4].pe.$procdff$506 ($dff) from module systolic_array (D = \row[0].col[4].pe.product, Q = \row[0].col[4].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[0].col[4].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[0].col[4].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[0].col[4].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[0].col[4].pe.$procdff$504 ($dff) from module systolic_array (D = \b_top [39:32], Q = \row[0].col[4].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[0].col[4].pe.$procdff$503 ($dff) from module systolic_array (D = \row[0].col[3].pe.a_out, Q = \row[0].col[4].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[0].col[5].pe.$procdff$506 ($dff) from module systolic_array (D = \row[0].col[5].pe.product, Q = \row[0].col[5].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[0].col[5].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[0].col[5].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[0].col[5].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[0].col[5].pe.$procdff$504 ($dff) from module systolic_array (D = \b_top [47:40], Q = \row[0].col[5].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[0].col[5].pe.$procdff$503 ($dff) from module systolic_array (D = \row[0].col[4].pe.a_out, Q = \row[0].col[5].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[0].col[6].pe.$procdff$506 ($dff) from module systolic_array (D = \row[0].col[6].pe.product, Q = \row[0].col[6].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[0].col[6].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[0].col[6].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[0].col[6].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[0].col[6].pe.$procdff$504 ($dff) from module systolic_array (D = \b_top [55:48], Q = \row[0].col[6].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[0].col[6].pe.$procdff$503 ($dff) from module systolic_array (D = \row[0].col[5].pe.a_out, Q = \row[0].col[6].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[0].col[7].pe.$procdff$506 ($dff) from module systolic_array (D = \row[0].col[7].pe.product, Q = \row[0].col[7].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[0].col[7].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[0].col[7].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[0].col[7].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[0].col[7].pe.$procdff$504 ($dff) from module systolic_array (D = \b_top [63:56], Q = \row[0].col[7].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[7].col[0].pe.$procdff$506 ($dff) from module systolic_array (D = \row[7].col[0].pe.product, Q = \row[7].col[0].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[7].col[0].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[7].col[0].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[7].col[0].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[1].col[0].pe.$procdff$506 ($dff) from module systolic_array (D = \row[1].col[0].pe.product, Q = \row[1].col[0].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[1].col[0].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[1].col[0].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[1].col[0].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[1].col[0].pe.$procdff$504 ($dff) from module systolic_array (D = \row[0].col[0].pe.b_out, Q = \row[1].col[0].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[1].col[0].pe.$procdff$503 ($dff) from module systolic_array (D = \a_left [15:8], Q = \row[1].col[0].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[1].col[1].pe.$procdff$506 ($dff) from module systolic_array (D = \row[1].col[1].pe.product, Q = \row[1].col[1].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[1].col[1].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[1].col[1].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[1].col[1].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[1].col[1].pe.$procdff$504 ($dff) from module systolic_array (D = \row[0].col[1].pe.b_out, Q = \row[1].col[1].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[1].col[1].pe.$procdff$503 ($dff) from module systolic_array (D = \row[1].col[0].pe.a_out, Q = \row[1].col[1].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[7].col[0].pe.$procdff$503 ($dff) from module systolic_array (D = \a_left [63:56], Q = \row[7].col[0].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[1].col[2].pe.$procdff$506 ($dff) from module systolic_array (D = \row[1].col[2].pe.product, Q = \row[1].col[2].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[1].col[2].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[1].col[2].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[1].col[2].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[1].col[2].pe.$procdff$504 ($dff) from module systolic_array (D = \row[0].col[2].pe.b_out, Q = \row[1].col[2].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[1].col[2].pe.$procdff$503 ($dff) from module systolic_array (D = \row[1].col[1].pe.a_out, Q = \row[1].col[2].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[1].col[3].pe.$procdff$506 ($dff) from module systolic_array (D = \row[1].col[3].pe.product, Q = \row[1].col[3].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[1].col[3].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[1].col[3].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[1].col[3].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[1].col[3].pe.$procdff$504 ($dff) from module systolic_array (D = \row[0].col[3].pe.b_out, Q = \row[1].col[3].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[1].col[3].pe.$procdff$503 ($dff) from module systolic_array (D = \row[1].col[2].pe.a_out, Q = \row[1].col[3].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[1].col[4].pe.$procdff$506 ($dff) from module systolic_array (D = \row[1].col[4].pe.product, Q = \row[1].col[4].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[1].col[4].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[1].col[4].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[1].col[4].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[1].col[4].pe.$procdff$504 ($dff) from module systolic_array (D = \row[0].col[4].pe.b_out, Q = \row[1].col[4].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[1].col[4].pe.$procdff$503 ($dff) from module systolic_array (D = \row[1].col[3].pe.a_out, Q = \row[1].col[4].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[1].col[5].pe.$procdff$506 ($dff) from module systolic_array (D = \row[1].col[5].pe.product, Q = \row[1].col[5].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[1].col[5].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[1].col[5].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[1].col[5].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[1].col[5].pe.$procdff$504 ($dff) from module systolic_array (D = \row[0].col[5].pe.b_out, Q = \row[1].col[5].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[1].col[5].pe.$procdff$503 ($dff) from module systolic_array (D = \row[1].col[4].pe.a_out, Q = \row[1].col[5].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[1].col[6].pe.$procdff$506 ($dff) from module systolic_array (D = \row[1].col[6].pe.product, Q = \row[1].col[6].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[1].col[6].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[1].col[6].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[1].col[6].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[1].col[6].pe.$procdff$504 ($dff) from module systolic_array (D = \row[0].col[6].pe.b_out, Q = \row[1].col[6].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[1].col[6].pe.$procdff$503 ($dff) from module systolic_array (D = \row[1].col[5].pe.a_out, Q = \row[1].col[6].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[1].col[7].pe.$procdff$506 ($dff) from module systolic_array (D = \row[1].col[7].pe.product, Q = \row[1].col[7].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[1].col[7].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[1].col[7].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[1].col[7].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[1].col[7].pe.$procdff$504 ($dff) from module systolic_array (D = \row[0].col[7].pe.b_out, Q = \row[1].col[7].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[2].col[0].pe.$procdff$506 ($dff) from module systolic_array (D = \row[2].col[0].pe.product, Q = \row[2].col[0].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[2].col[0].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[2].col[0].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[2].col[0].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[2].col[0].pe.$procdff$504 ($dff) from module systolic_array (D = \row[1].col[0].pe.b_out, Q = \row[2].col[0].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[2].col[0].pe.$procdff$503 ($dff) from module systolic_array (D = \a_left [23:16], Q = \row[2].col[0].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[2].col[1].pe.$procdff$506 ($dff) from module systolic_array (D = \row[2].col[1].pe.product, Q = \row[2].col[1].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[2].col[1].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[2].col[1].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[2].col[1].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[2].col[1].pe.$procdff$504 ($dff) from module systolic_array (D = \row[1].col[1].pe.b_out, Q = \row[2].col[1].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[2].col[1].pe.$procdff$503 ($dff) from module systolic_array (D = \row[2].col[0].pe.a_out, Q = \row[2].col[1].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[7].col[1].pe.$procdff$506 ($dff) from module systolic_array (D = \row[7].col[1].pe.product, Q = \row[7].col[1].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[2].col[2].pe.$procdff$506 ($dff) from module systolic_array (D = \row[2].col[2].pe.product, Q = \row[2].col[2].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[2].col[2].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[2].col[2].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[2].col[2].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[2].col[2].pe.$procdff$504 ($dff) from module systolic_array (D = \row[1].col[2].pe.b_out, Q = \row[2].col[2].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[2].col[2].pe.$procdff$503 ($dff) from module systolic_array (D = \row[2].col[1].pe.a_out, Q = \row[2].col[2].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[7].col[1].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[7].col[1].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[7].col[1].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[2].col[3].pe.$procdff$506 ($dff) from module systolic_array (D = \row[2].col[3].pe.product, Q = \row[2].col[3].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[2].col[3].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[2].col[3].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[2].col[3].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[2].col[3].pe.$procdff$504 ($dff) from module systolic_array (D = \row[1].col[3].pe.b_out, Q = \row[2].col[3].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[2].col[3].pe.$procdff$503 ($dff) from module systolic_array (D = \row[2].col[2].pe.a_out, Q = \row[2].col[3].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[2].col[4].pe.$procdff$506 ($dff) from module systolic_array (D = \row[2].col[4].pe.product, Q = \row[2].col[4].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[2].col[4].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[2].col[4].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[2].col[4].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[2].col[4].pe.$procdff$504 ($dff) from module systolic_array (D = \row[1].col[4].pe.b_out, Q = \row[2].col[4].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[2].col[4].pe.$procdff$503 ($dff) from module systolic_array (D = \row[2].col[3].pe.a_out, Q = \row[2].col[4].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[7].col[1].pe.$procdff$503 ($dff) from module systolic_array (D = \row[7].col[0].pe.a_out, Q = \row[7].col[1].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[2].col[5].pe.$procdff$506 ($dff) from module systolic_array (D = \row[2].col[5].pe.product, Q = \row[2].col[5].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[2].col[5].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[2].col[5].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[2].col[5].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[2].col[5].pe.$procdff$504 ($dff) from module systolic_array (D = \row[1].col[5].pe.b_out, Q = \row[2].col[5].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[2].col[5].pe.$procdff$503 ($dff) from module systolic_array (D = \row[2].col[4].pe.a_out, Q = \row[2].col[5].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[2].col[6].pe.$procdff$506 ($dff) from module systolic_array (D = \row[2].col[6].pe.product, Q = \row[2].col[6].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[2].col[6].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[2].col[6].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[2].col[6].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[2].col[6].pe.$procdff$504 ($dff) from module systolic_array (D = \row[1].col[6].pe.b_out, Q = \row[2].col[6].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[2].col[6].pe.$procdff$503 ($dff) from module systolic_array (D = \row[2].col[5].pe.a_out, Q = \row[2].col[6].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[2].col[7].pe.$procdff$506 ($dff) from module systolic_array (D = \row[2].col[7].pe.product, Q = \row[2].col[7].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[2].col[7].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[2].col[7].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[2].col[7].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[2].col[7].pe.$procdff$504 ($dff) from module systolic_array (D = \row[1].col[7].pe.b_out, Q = \row[2].col[7].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[7].col[5].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[7].col[5].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[7].col[5].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[3].col[0].pe.$procdff$506 ($dff) from module systolic_array (D = \row[3].col[0].pe.product, Q = \row[3].col[0].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[3].col[0].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[3].col[0].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[3].col[0].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[3].col[0].pe.$procdff$504 ($dff) from module systolic_array (D = \row[2].col[0].pe.b_out, Q = \row[3].col[0].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[3].col[0].pe.$procdff$503 ($dff) from module systolic_array (D = \a_left [31:24], Q = \row[3].col[0].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[3].col[1].pe.$procdff$506 ($dff) from module systolic_array (D = \row[3].col[1].pe.product, Q = \row[3].col[1].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[3].col[1].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[3].col[1].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[3].col[1].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[3].col[1].pe.$procdff$504 ($dff) from module systolic_array (D = \row[2].col[1].pe.b_out, Q = \row[3].col[1].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[3].col[1].pe.$procdff$503 ($dff) from module systolic_array (D = \row[3].col[0].pe.a_out, Q = \row[3].col[1].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[3].col[2].pe.$procdff$506 ($dff) from module systolic_array (D = \row[3].col[2].pe.product, Q = \row[3].col[2].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[3].col[2].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[3].col[2].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[3].col[2].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[3].col[2].pe.$procdff$504 ($dff) from module systolic_array (D = \row[2].col[2].pe.b_out, Q = \row[3].col[2].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[3].col[2].pe.$procdff$503 ($dff) from module systolic_array (D = \row[3].col[1].pe.a_out, Q = \row[3].col[2].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[3].col[3].pe.$procdff$506 ($dff) from module systolic_array (D = \row[3].col[3].pe.product, Q = \row[3].col[3].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[3].col[3].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[3].col[3].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[3].col[3].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[3].col[3].pe.$procdff$504 ($dff) from module systolic_array (D = \row[2].col[3].pe.b_out, Q = \row[3].col[3].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[3].col[3].pe.$procdff$503 ($dff) from module systolic_array (D = \row[3].col[2].pe.a_out, Q = \row[3].col[3].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[3].col[4].pe.$procdff$506 ($dff) from module systolic_array (D = \row[3].col[4].pe.product, Q = \row[3].col[4].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[3].col[4].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[3].col[4].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[3].col[4].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[3].col[4].pe.$procdff$504 ($dff) from module systolic_array (D = \row[2].col[4].pe.b_out, Q = \row[3].col[4].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[3].col[4].pe.$procdff$503 ($dff) from module systolic_array (D = \row[3].col[3].pe.a_out, Q = \row[3].col[4].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[7].col[2].pe.$procdff$506 ($dff) from module systolic_array (D = \row[7].col[2].pe.product, Q = \row[7].col[2].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[3].col[5].pe.$procdff$506 ($dff) from module systolic_array (D = \row[3].col[5].pe.product, Q = \row[3].col[5].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[3].col[5].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[3].col[5].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[3].col[5].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[3].col[5].pe.$procdff$504 ($dff) from module systolic_array (D = \row[2].col[5].pe.b_out, Q = \row[3].col[5].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[3].col[5].pe.$procdff$503 ($dff) from module systolic_array (D = \row[3].col[4].pe.a_out, Q = \row[3].col[5].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[7].col[2].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[7].col[2].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[7].col[2].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[3].col[6].pe.$procdff$506 ($dff) from module systolic_array (D = \row[3].col[6].pe.product, Q = \row[3].col[6].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[3].col[6].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[3].col[6].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[3].col[6].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[3].col[6].pe.$procdff$504 ($dff) from module systolic_array (D = \row[2].col[6].pe.b_out, Q = \row[3].col[6].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[3].col[6].pe.$procdff$503 ($dff) from module systolic_array (D = \row[3].col[5].pe.a_out, Q = \row[3].col[6].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[7].col[6].pe.$procdff$503 ($dff) from module systolic_array (D = \row[7].col[5].pe.a_out, Q = \row[7].col[6].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[3].col[7].pe.$procdff$506 ($dff) from module systolic_array (D = \row[3].col[7].pe.product, Q = \row[3].col[7].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[3].col[7].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[3].col[7].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[3].col[7].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[3].col[7].pe.$procdff$504 ($dff) from module systolic_array (D = \row[2].col[7].pe.b_out, Q = \row[3].col[7].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[7].col[5].pe.$procdff$503 ($dff) from module systolic_array (D = \row[7].col[4].pe.a_out, Q = \row[7].col[5].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[7].col[2].pe.$procdff$503 ($dff) from module systolic_array (D = \row[7].col[1].pe.a_out, Q = \row[7].col[2].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[4].col[0].pe.$procdff$506 ($dff) from module systolic_array (D = \row[4].col[0].pe.product, Q = \row[4].col[0].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[4].col[0].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[4].col[0].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[4].col[0].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[4].col[0].pe.$procdff$504 ($dff) from module systolic_array (D = \row[3].col[0].pe.b_out, Q = \row[4].col[0].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[4].col[0].pe.$procdff$503 ($dff) from module systolic_array (D = \a_left [39:32], Q = \row[4].col[0].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[4].col[1].pe.$procdff$506 ($dff) from module systolic_array (D = \row[4].col[1].pe.product, Q = \row[4].col[1].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[4].col[1].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[4].col[1].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[4].col[1].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[4].col[1].pe.$procdff$504 ($dff) from module systolic_array (D = \row[3].col[1].pe.b_out, Q = \row[4].col[1].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[4].col[1].pe.$procdff$503 ($dff) from module systolic_array (D = \row[4].col[0].pe.a_out, Q = \row[4].col[1].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[4].col[2].pe.$procdff$506 ($dff) from module systolic_array (D = \row[4].col[2].pe.product, Q = \row[4].col[2].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[4].col[2].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[4].col[2].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[4].col[2].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[4].col[2].pe.$procdff$504 ($dff) from module systolic_array (D = \row[3].col[2].pe.b_out, Q = \row[4].col[2].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[4].col[2].pe.$procdff$503 ($dff) from module systolic_array (D = \row[4].col[1].pe.a_out, Q = \row[4].col[2].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[4].col[3].pe.$procdff$506 ($dff) from module systolic_array (D = \row[4].col[3].pe.product, Q = \row[4].col[3].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[4].col[3].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[4].col[3].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[4].col[3].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[4].col[3].pe.$procdff$504 ($dff) from module systolic_array (D = \row[3].col[3].pe.b_out, Q = \row[4].col[3].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[4].col[3].pe.$procdff$503 ($dff) from module systolic_array (D = \row[4].col[2].pe.a_out, Q = \row[4].col[3].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[4].col[4].pe.$procdff$506 ($dff) from module systolic_array (D = \row[4].col[4].pe.product, Q = \row[4].col[4].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[4].col[4].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[4].col[4].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[4].col[4].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[4].col[4].pe.$procdff$504 ($dff) from module systolic_array (D = \row[3].col[4].pe.b_out, Q = \row[4].col[4].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[4].col[4].pe.$procdff$503 ($dff) from module systolic_array (D = \row[4].col[3].pe.a_out, Q = \row[4].col[4].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[4].col[5].pe.$procdff$506 ($dff) from module systolic_array (D = \row[4].col[5].pe.product, Q = \row[4].col[5].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[4].col[5].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[4].col[5].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[4].col[5].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[4].col[5].pe.$procdff$504 ($dff) from module systolic_array (D = \row[3].col[5].pe.b_out, Q = \row[4].col[5].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[4].col[5].pe.$procdff$503 ($dff) from module systolic_array (D = \row[4].col[4].pe.a_out, Q = \row[4].col[5].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[4].col[6].pe.$procdff$506 ($dff) from module systolic_array (D = \row[4].col[6].pe.product, Q = \row[4].col[6].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[4].col[6].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[4].col[6].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[4].col[6].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[4].col[6].pe.$procdff$504 ($dff) from module systolic_array (D = \row[3].col[6].pe.b_out, Q = \row[4].col[6].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[4].col[6].pe.$procdff$503 ($dff) from module systolic_array (D = \row[4].col[5].pe.a_out, Q = \row[4].col[6].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[4].col[7].pe.$procdff$506 ($dff) from module systolic_array (D = \row[4].col[7].pe.product, Q = \row[4].col[7].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[4].col[7].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[4].col[7].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[4].col[7].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[4].col[7].pe.$procdff$504 ($dff) from module systolic_array (D = \row[3].col[7].pe.b_out, Q = \row[4].col[7].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[7].col[7].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[7].col[7].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[7].col[7].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[7].col[3].pe.$procdff$506 ($dff) from module systolic_array (D = \row[7].col[3].pe.product, Q = \row[7].col[3].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[5].col[0].pe.$procdff$506 ($dff) from module systolic_array (D = \row[5].col[0].pe.product, Q = \row[5].col[0].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[5].col[0].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[5].col[0].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[5].col[0].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[5].col[0].pe.$procdff$504 ($dff) from module systolic_array (D = \row[4].col[0].pe.b_out, Q = \row[5].col[0].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[5].col[0].pe.$procdff$503 ($dff) from module systolic_array (D = \a_left [47:40], Q = \row[5].col[0].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[7].col[3].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[7].col[3].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[7].col[3].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[5].col[1].pe.$procdff$506 ($dff) from module systolic_array (D = \row[5].col[1].pe.product, Q = \row[5].col[1].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[5].col[1].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[5].col[1].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[5].col[1].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[5].col[1].pe.$procdff$504 ($dff) from module systolic_array (D = \row[4].col[1].pe.b_out, Q = \row[5].col[1].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[5].col[1].pe.$procdff$503 ($dff) from module systolic_array (D = \row[5].col[0].pe.a_out, Q = \row[5].col[1].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[7].col[6].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[7].col[6].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[7].col[6].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[5].col[2].pe.$procdff$506 ($dff) from module systolic_array (D = \row[5].col[2].pe.product, Q = \row[5].col[2].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[5].col[2].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[5].col[2].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[5].col[2].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[5].col[2].pe.$procdff$504 ($dff) from module systolic_array (D = \row[4].col[2].pe.b_out, Q = \row[5].col[2].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[5].col[2].pe.$procdff$503 ($dff) from module systolic_array (D = \row[5].col[1].pe.a_out, Q = \row[5].col[2].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[7].col[3].pe.$procdff$503 ($dff) from module systolic_array (D = \row[7].col[2].pe.a_out, Q = \row[7].col[3].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[5].col[3].pe.$procdff$506 ($dff) from module systolic_array (D = \row[5].col[3].pe.product, Q = \row[5].col[3].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[5].col[3].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[5].col[3].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[5].col[3].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[5].col[3].pe.$procdff$504 ($dff) from module systolic_array (D = \row[4].col[3].pe.b_out, Q = \row[5].col[3].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[5].col[3].pe.$procdff$503 ($dff) from module systolic_array (D = \row[5].col[2].pe.a_out, Q = \row[5].col[3].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[5].col[4].pe.$procdff$506 ($dff) from module systolic_array (D = \row[5].col[4].pe.product, Q = \row[5].col[4].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[5].col[4].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[5].col[4].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[5].col[4].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[5].col[4].pe.$procdff$504 ($dff) from module systolic_array (D = \row[4].col[4].pe.b_out, Q = \row[5].col[4].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[5].col[4].pe.$procdff$503 ($dff) from module systolic_array (D = \row[5].col[3].pe.a_out, Q = \row[5].col[4].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[7].col[6].pe.$procdff$506 ($dff) from module systolic_array (D = \row[7].col[6].pe.product, Q = \row[7].col[6].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[5].col[5].pe.$procdff$506 ($dff) from module systolic_array (D = \row[5].col[5].pe.product, Q = \row[5].col[5].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[5].col[5].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[5].col[5].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[5].col[5].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[5].col[5].pe.$procdff$504 ($dff) from module systolic_array (D = \row[4].col[5].pe.b_out, Q = \row[5].col[5].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[5].col[5].pe.$procdff$503 ($dff) from module systolic_array (D = \row[5].col[4].pe.a_out, Q = \row[5].col[5].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[5].col[6].pe.$procdff$506 ($dff) from module systolic_array (D = \row[5].col[6].pe.product, Q = \row[5].col[6].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[5].col[6].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[5].col[6].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[5].col[6].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[5].col[6].pe.$procdff$504 ($dff) from module systolic_array (D = \row[4].col[6].pe.b_out, Q = \row[5].col[6].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[5].col[6].pe.$procdff$503 ($dff) from module systolic_array (D = \row[5].col[5].pe.a_out, Q = \row[5].col[6].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[5].col[7].pe.$procdff$506 ($dff) from module systolic_array (D = \row[5].col[7].pe.product, Q = \row[5].col[7].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[5].col[7].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[5].col[7].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[5].col[7].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[5].col[7].pe.$procdff$504 ($dff) from module systolic_array (D = \row[4].col[7].pe.b_out, Q = \row[5].col[7].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[7].col[7].pe.$procdff$506 ($dff) from module systolic_array (D = \row[7].col[7].pe.product, Q = \row[7].col[7].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[6].col[0].pe.$procdff$506 ($dff) from module systolic_array (D = \row[6].col[0].pe.product, Q = \row[6].col[0].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[6].col[0].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[6].col[0].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[6].col[0].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[6].col[0].pe.$procdff$504 ($dff) from module systolic_array (D = \row[5].col[0].pe.b_out, Q = \row[6].col[0].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[6].col[0].pe.$procdff$503 ($dff) from module systolic_array (D = \a_left [55:48], Q = \row[6].col[0].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[6].col[1].pe.$procdff$506 ($dff) from module systolic_array (D = \row[6].col[1].pe.product, Q = \row[6].col[1].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[6].col[1].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[6].col[1].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[6].col[1].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[6].col[1].pe.$procdff$504 ($dff) from module systolic_array (D = \row[5].col[1].pe.b_out, Q = \row[6].col[1].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[6].col[1].pe.$procdff$503 ($dff) from module systolic_array (D = \row[6].col[0].pe.a_out, Q = \row[6].col[1].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[6].col[2].pe.$procdff$506 ($dff) from module systolic_array (D = \row[6].col[2].pe.product, Q = \row[6].col[2].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[6].col[2].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[6].col[2].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[6].col[2].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[6].col[2].pe.$procdff$504 ($dff) from module systolic_array (D = \row[5].col[2].pe.b_out, Q = \row[6].col[2].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[6].col[2].pe.$procdff$503 ($dff) from module systolic_array (D = \row[6].col[1].pe.a_out, Q = \row[6].col[2].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[7].col[4].pe.$procdff$506 ($dff) from module systolic_array (D = \row[7].col[4].pe.product, Q = \row[7].col[4].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[6].col[3].pe.$procdff$506 ($dff) from module systolic_array (D = \row[6].col[3].pe.product, Q = \row[6].col[3].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[6].col[3].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[6].col[3].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[6].col[3].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[6].col[3].pe.$procdff$504 ($dff) from module systolic_array (D = \row[5].col[3].pe.b_out, Q = \row[6].col[3].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[6].col[3].pe.$procdff$503 ($dff) from module systolic_array (D = \row[6].col[2].pe.a_out, Q = \row[6].col[3].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[7].col[4].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[7].col[4].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[7].col[4].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[6].col[4].pe.$procdff$506 ($dff) from module systolic_array (D = \row[6].col[4].pe.product, Q = \row[6].col[4].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[6].col[4].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[6].col[4].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[6].col[4].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[6].col[4].pe.$procdff$504 ($dff) from module systolic_array (D = \row[5].col[4].pe.b_out, Q = \row[6].col[4].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[6].col[4].pe.$procdff$503 ($dff) from module systolic_array (D = \row[6].col[3].pe.a_out, Q = \row[6].col[4].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[6].col[5].pe.$procdff$506 ($dff) from module systolic_array (D = \row[6].col[5].pe.product, Q = \row[6].col[5].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[6].col[5].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[6].col[5].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[6].col[5].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[6].col[5].pe.$procdff$504 ($dff) from module systolic_array (D = \row[5].col[5].pe.b_out, Q = \row[6].col[5].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[6].col[5].pe.$procdff$503 ($dff) from module systolic_array (D = \row[6].col[4].pe.a_out, Q = \row[6].col[5].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[7].col[4].pe.$procdff$503 ($dff) from module systolic_array (D = \row[7].col[3].pe.a_out, Q = \row[7].col[4].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[6].col[6].pe.$procdff$506 ($dff) from module systolic_array (D = \row[6].col[6].pe.product, Q = \row[6].col[6].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[6].col[6].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[6].col[6].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[6].col[6].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[6].col[6].pe.$procdff$504 ($dff) from module systolic_array (D = \row[5].col[6].pe.b_out, Q = \row[6].col[6].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[6].col[6].pe.$procdff$503 ($dff) from module systolic_array (D = \row[6].col[5].pe.a_out, Q = \row[6].col[6].pe.a_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[6].col[7].pe.$procdff$506 ($dff) from module systolic_array (D = \row[6].col[7].pe.product, Q = \row[6].col[7].pe.product_q, rval = 16'0000000000000000).
+Adding SRST signal on $flatten\row[6].col[7].pe.$procdff$505 ($dff) from module systolic_array (D = $flatten\row[6].col[7].pe.$add$rtl/mac_pe.sv:14$26_Y, Q = \row[6].col[7].pe.acc, rval = 0).
+Adding SRST signal on $flatten\row[6].col[7].pe.$procdff$504 ($dff) from module systolic_array (D = \row[5].col[7].pe.b_out, Q = \row[6].col[7].pe.b_out, rval = 8'00000000).
+Adding SRST signal on $flatten\row[7].col[5].pe.$procdff$506 ($dff) from module systolic_array (D = \row[7].col[5].pe.product, Q = \row[7].col[5].pe.product_q, rval = 16'0000000000000000).
+
+3.10.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \systolic_array..
+Removed 240 unused cells and 240 unused wires.
+<suppressed ~241 debug messages>
+
+3.10.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module systolic_array.
+
+3.10.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+3.10.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \systolic_array..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+3.10.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \systolic_array.
+Performed a total of 0 changes.
+
+3.10.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\systolic_array'.
+Computing hashes of 433 cells of `\systolic_array'.
+Finding duplicate cells in `\systolic_array'.
+Removed a total of 0 cells.
+
+3.10.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+3.10.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \systolic_array..
+
+3.10.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module systolic_array.
+
+3.10.16. Finished fast OPT passes. (There is nothing left to do.)
+
+3.11. Executing WREDUCE pass (reducing word size of cells).
+
+3.12. Executing PEEPOPT pass (run peephole optimizers).
+
+3.13. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \systolic_array..
+
+3.14. Executing ALUMACC pass (create $alu and $macc cells).
+Extracting $alu and $macc cells in module systolic_array:
+  creating $macc model for $flatten\row[4].col[0].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[5].col[3].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[4].col[2].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[3].col[7].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[7].col[5].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[3].col[6].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[4].col[7].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[5].col[0].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[3].col[5].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[5].col[4].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[3].col[4].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[3].col[3].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[5].col[5].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[7].col[4].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[3].col[2].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[7].col[1].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[3].col[1].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[3].col[0].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[4].col[6].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[5].col[6].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[2].col[7].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[2].col[6].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[2].col[5].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[5].col[1].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[5].col[7].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[7].col[3].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[2].col[4].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[2].col[3].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[2].col[2].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[6].col[0].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[2].col[1].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[2].col[0].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[4].col[5].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[1].col[7].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[6].col[1].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[7].col[7].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[7].col[0].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[1].col[6].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[1].col[5].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[1].col[4].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[6].col[2].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[1].col[3].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[5].col[2].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[1].col[2].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[6].col[3].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[1].col[1].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[4].col[1].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[1].col[0].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[7].col[2].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[0].col[7].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[4].col[4].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[6].col[4].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[0].col[6].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[0].col[5].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[6].col[7].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[0].col[4].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[6].col[5].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[0].col[3].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[4].col[3].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[0].col[2].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[0].col[1].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[6].col[6].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[7].col[6].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[0].col[0].pe.$add$rtl/mac_pe.sv:14$26 ($add).
+  creating $macc model for $flatten\row[7].col[7].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[7].col[6].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[7].col[5].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[7].col[4].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[7].col[3].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[7].col[2].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[7].col[1].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[7].col[0].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[6].col[7].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[6].col[6].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[6].col[5].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[6].col[4].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[6].col[3].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[6].col[2].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[6].col[1].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[6].col[0].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[5].col[7].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[5].col[6].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[5].col[5].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[5].col[4].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[5].col[3].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[5].col[2].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[5].col[1].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[5].col[0].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[4].col[7].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[4].col[6].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[4].col[5].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[4].col[4].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[4].col[3].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[4].col[2].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[4].col[1].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[4].col[0].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[3].col[7].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[3].col[6].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[3].col[5].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[3].col[4].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[3].col[3].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[3].col[2].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[3].col[1].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[3].col[0].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[2].col[7].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[2].col[6].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[2].col[5].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[2].col[4].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[2].col[3].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[2].col[2].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[2].col[1].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[2].col[0].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[1].col[7].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[1].col[6].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[1].col[5].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[1].col[4].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[1].col[3].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[1].col[2].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[1].col[1].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[1].col[0].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[0].col[7].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[0].col[6].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[0].col[5].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[0].col[4].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[0].col[3].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[0].col[2].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[0].col[1].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $macc model for $flatten\row[0].col[0].pe.$mul$rtl/mac_pe.sv:9$23 ($mul).
+  creating $alu model for $macc $flatten\row[0].col[0].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[7].col[6].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[6].col[6].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[0].col[1].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[0].col[2].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[4].col[3].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[0].col[3].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[6].col[5].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[0].col[4].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[6].col[7].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[0].col[5].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[0].col[6].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[6].col[4].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[4].col[4].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[0].col[7].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[7].col[2].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[1].col[0].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[4].col[1].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[1].col[1].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[6].col[3].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[1].col[2].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[5].col[2].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[1].col[3].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[6].col[2].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[1].col[4].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[1].col[5].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[1].col[6].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[7].col[0].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[7].col[7].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[6].col[1].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[1].col[7].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[4].col[5].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[2].col[0].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[2].col[1].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[6].col[0].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[2].col[2].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[2].col[3].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[2].col[4].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[7].col[3].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[5].col[7].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[5].col[1].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[2].col[5].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[2].col[6].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[2].col[7].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[5].col[6].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[4].col[6].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[3].col[0].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[3].col[1].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[7].col[1].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[3].col[2].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[7].col[4].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[5].col[5].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[3].col[3].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[3].col[4].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[5].col[4].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[3].col[5].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[5].col[0].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[4].col[7].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[3].col[6].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[7].col[5].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[3].col[7].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[4].col[2].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[5].col[3].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $alu model for $macc $flatten\row[4].col[0].pe.$add$rtl/mac_pe.sv:14$26.
+  creating $macc cell for $flatten\row[7].col[7].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$811
+  creating $macc cell for $flatten\row[7].col[6].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$812
+  creating $macc cell for $flatten\row[7].col[5].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$813
+  creating $macc cell for $flatten\row[7].col[4].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$814
+  creating $macc cell for $flatten\row[7].col[3].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$815
+  creating $macc cell for $flatten\row[7].col[2].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$816
+  creating $macc cell for $flatten\row[7].col[1].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$817
+  creating $macc cell for $flatten\row[7].col[0].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$818
+  creating $macc cell for $flatten\row[6].col[7].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$819
+  creating $macc cell for $flatten\row[6].col[6].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$820
+  creating $macc cell for $flatten\row[6].col[5].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$821
+  creating $macc cell for $flatten\row[6].col[4].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$822
+  creating $macc cell for $flatten\row[6].col[3].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$823
+  creating $macc cell for $flatten\row[6].col[2].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$824
+  creating $macc cell for $flatten\row[6].col[1].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$825
+  creating $macc cell for $flatten\row[6].col[0].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$826
+  creating $macc cell for $flatten\row[5].col[7].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$827
+  creating $macc cell for $flatten\row[5].col[6].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$828
+  creating $macc cell for $flatten\row[5].col[5].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$829
+  creating $macc cell for $flatten\row[5].col[4].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$830
+  creating $macc cell for $flatten\row[5].col[3].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$831
+  creating $macc cell for $flatten\row[5].col[2].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$832
+  creating $macc cell for $flatten\row[5].col[1].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$833
+  creating $macc cell for $flatten\row[5].col[0].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$834
+  creating $macc cell for $flatten\row[4].col[7].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$835
+  creating $macc cell for $flatten\row[4].col[6].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$836
+  creating $macc cell for $flatten\row[4].col[5].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$837
+  creating $macc cell for $flatten\row[4].col[4].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$838
+  creating $macc cell for $flatten\row[4].col[3].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$839
+  creating $macc cell for $flatten\row[4].col[2].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$840
+  creating $macc cell for $flatten\row[4].col[1].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$841
+  creating $macc cell for $flatten\row[4].col[0].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$842
+  creating $macc cell for $flatten\row[3].col[7].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$843
+  creating $macc cell for $flatten\row[3].col[6].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$844
+  creating $macc cell for $flatten\row[3].col[5].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$845
+  creating $macc cell for $flatten\row[3].col[4].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$846
+  creating $macc cell for $flatten\row[3].col[3].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$847
+  creating $macc cell for $flatten\row[3].col[2].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$848
+  creating $macc cell for $flatten\row[3].col[1].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$849
+  creating $macc cell for $flatten\row[3].col[0].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$850
+  creating $macc cell for $flatten\row[2].col[7].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$851
+  creating $macc cell for $flatten\row[2].col[6].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$852
+  creating $macc cell for $flatten\row[2].col[5].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$853
+  creating $macc cell for $flatten\row[2].col[4].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$854
+  creating $macc cell for $flatten\row[2].col[3].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$855
+  creating $macc cell for $flatten\row[2].col[2].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$856
+  creating $macc cell for $flatten\row[2].col[1].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$857
+  creating $macc cell for $flatten\row[2].col[0].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$858
+  creating $macc cell for $flatten\row[1].col[7].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$859
+  creating $macc cell for $flatten\row[1].col[6].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$860
+  creating $macc cell for $flatten\row[1].col[5].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$861
+  creating $macc cell for $flatten\row[1].col[4].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$862
+  creating $macc cell for $flatten\row[1].col[3].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$863
+  creating $macc cell for $flatten\row[1].col[2].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$864
+  creating $macc cell for $flatten\row[1].col[1].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$865
+  creating $macc cell for $flatten\row[1].col[0].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$866
+  creating $macc cell for $flatten\row[0].col[7].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$867
+  creating $macc cell for $flatten\row[0].col[6].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$868
+  creating $macc cell for $flatten\row[0].col[5].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$869
+  creating $macc cell for $flatten\row[0].col[4].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$870
+  creating $macc cell for $flatten\row[0].col[3].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$871
+  creating $macc cell for $flatten\row[0].col[2].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$872
+  creating $macc cell for $flatten\row[0].col[1].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$873
+  creating $macc cell for $flatten\row[0].col[0].pe.$mul$rtl/mac_pe.sv:9$23: $auto$alumacc.cc:399:replace_macc$874
+  creating $alu cell for $flatten\row[4].col[0].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$875
+  creating $alu cell for $flatten\row[5].col[3].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$878
+  creating $alu cell for $flatten\row[4].col[2].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$881
+  creating $alu cell for $flatten\row[3].col[7].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$884
+  creating $alu cell for $flatten\row[7].col[5].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$887
+  creating $alu cell for $flatten\row[3].col[6].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$890
+  creating $alu cell for $flatten\row[4].col[7].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$893
+  creating $alu cell for $flatten\row[5].col[0].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$896
+  creating $alu cell for $flatten\row[3].col[5].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$899
+  creating $alu cell for $flatten\row[5].col[4].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$902
+  creating $alu cell for $flatten\row[3].col[4].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$905
+  creating $alu cell for $flatten\row[3].col[3].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$908
+  creating $alu cell for $flatten\row[5].col[5].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$911
+  creating $alu cell for $flatten\row[7].col[4].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$914
+  creating $alu cell for $flatten\row[3].col[2].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$917
+  creating $alu cell for $flatten\row[7].col[1].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$920
+  creating $alu cell for $flatten\row[3].col[1].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$923
+  creating $alu cell for $flatten\row[3].col[0].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$926
+  creating $alu cell for $flatten\row[4].col[6].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$929
+  creating $alu cell for $flatten\row[5].col[6].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$932
+  creating $alu cell for $flatten\row[2].col[7].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$935
+  creating $alu cell for $flatten\row[2].col[6].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$938
+  creating $alu cell for $flatten\row[2].col[5].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$941
+  creating $alu cell for $flatten\row[5].col[1].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$944
+  creating $alu cell for $flatten\row[5].col[7].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$947
+  creating $alu cell for $flatten\row[7].col[3].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$950
+  creating $alu cell for $flatten\row[2].col[4].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$953
+  creating $alu cell for $flatten\row[2].col[3].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$956
+  creating $alu cell for $flatten\row[2].col[2].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$959
+  creating $alu cell for $flatten\row[6].col[0].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$962
+  creating $alu cell for $flatten\row[2].col[1].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$965
+  creating $alu cell for $flatten\row[2].col[0].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$968
+  creating $alu cell for $flatten\row[4].col[5].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$971
+  creating $alu cell for $flatten\row[1].col[7].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$974
+  creating $alu cell for $flatten\row[6].col[1].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$977
+  creating $alu cell for $flatten\row[7].col[7].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$980
+  creating $alu cell for $flatten\row[7].col[0].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$983
+  creating $alu cell for $flatten\row[1].col[6].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$986
+  creating $alu cell for $flatten\row[1].col[5].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$989
+  creating $alu cell for $flatten\row[1].col[4].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$992
+  creating $alu cell for $flatten\row[6].col[2].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$995
+  creating $alu cell for $flatten\row[1].col[3].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$998
+  creating $alu cell for $flatten\row[5].col[2].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$1001
+  creating $alu cell for $flatten\row[1].col[2].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$1004
+  creating $alu cell for $flatten\row[6].col[3].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$1007
+  creating $alu cell for $flatten\row[1].col[1].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$1010
+  creating $alu cell for $flatten\row[4].col[1].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$1013
+  creating $alu cell for $flatten\row[1].col[0].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$1016
+  creating $alu cell for $flatten\row[7].col[2].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$1019
+  creating $alu cell for $flatten\row[0].col[7].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$1022
+  creating $alu cell for $flatten\row[4].col[4].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$1025
+  creating $alu cell for $flatten\row[6].col[4].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$1028
+  creating $alu cell for $flatten\row[0].col[6].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$1031
+  creating $alu cell for $flatten\row[0].col[5].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$1034
+  creating $alu cell for $flatten\row[6].col[7].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$1037
+  creating $alu cell for $flatten\row[0].col[4].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$1040
+  creating $alu cell for $flatten\row[6].col[5].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$1043
+  creating $alu cell for $flatten\row[0].col[3].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$1046
+  creating $alu cell for $flatten\row[4].col[3].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$1049
+  creating $alu cell for $flatten\row[0].col[2].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$1052
+  creating $alu cell for $flatten\row[0].col[1].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$1055
+  creating $alu cell for $flatten\row[6].col[6].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$1058
+  creating $alu cell for $flatten\row[7].col[6].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$1061
+  creating $alu cell for $flatten\row[0].col[0].pe.$add$rtl/mac_pe.sv:14$26: $auto$alumacc.cc:548:replace_alu$1064
+  created 64 $alu and 64 $macc cells.
+
+3.15. Executing SHARE pass (SAT-based resource sharing).
+
+3.16. Executing OPT pass (performing simple optimizations).
+
+3.16.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module systolic_array.
+
+3.16.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\systolic_array'.
+Computing hashes of 433 cells of `\systolic_array'.
+Finding duplicate cells in `\systolic_array'.
+Removed a total of 0 cells.
+
+3.16.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \systolic_array..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+3.16.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \systolic_array.
+Performed a total of 0 changes.
+
+3.16.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\systolic_array'.
+Computing hashes of 433 cells of `\systolic_array'.
+Finding duplicate cells in `\systolic_array'.
+Removed a total of 0 cells.
+
+3.16.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+3.16.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \systolic_array..
+
+3.16.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module systolic_array.
+
+3.16.9. Finished fast OPT passes. (There is nothing left to do.)
+
+3.17. Executing MEMORY pass.
+
+3.17.1. Executing OPT_MEM pass (optimize memories).
+Performed a total of 0 transformations.
+
+3.17.2. Executing OPT_MEM_PRIORITY pass (removing unnecessary memory write priority relations).
+Performed a total of 0 transformations.
+
+3.17.3. Executing OPT_MEM_FEEDBACK pass (finding memory read-to-write feedback paths).
+
+3.17.4. Executing MEMORY_BMUX2ROM pass (converting muxes to ROMs).
+
+3.17.5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).
+
+3.17.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \systolic_array..
+
+3.17.7. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+
+3.17.8. Executing OPT_MEM_WIDEN pass (optimize memories where all ports are wide).
+Performed a total of 0 transformations.
+
+3.17.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \systolic_array..
+
+3.17.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+3.18. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \systolic_array..
+
+3.19. Executing OPT pass (performing simple optimizations).
+
+3.19.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module systolic_array.
+
+3.19.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\systolic_array'.
+Computing hashes of 433 cells of `\systolic_array'.
+Finding duplicate cells in `\systolic_array'.
+Removed a total of 0 cells.
+
+3.19.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+3.19.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \systolic_array..
+
+3.19.5. Finished fast OPT passes.
+
+3.20. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+
+3.21. Executing OPT pass (performing simple optimizations).
+
+3.21.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module systolic_array.
+
+3.21.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\systolic_array'.
+Computing hashes of 433 cells of `\systolic_array'.
+Finding duplicate cells in `\systolic_array'.
+Removed a total of 0 cells.
+
+3.21.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \systolic_array..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+3.21.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \systolic_array.
+Performed a total of 0 changes.
+
+3.21.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\systolic_array'.
+Computing hashes of 433 cells of `\systolic_array'.
+Finding duplicate cells in `\systolic_array'.
+Removed a total of 0 cells.
+
+3.21.6. Executing OPT_SHARE pass.
+
+3.21.7. Executing OPT_DFF pass (perform DFF optimizations).
+
+3.21.8. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \systolic_array..
+
+3.21.9. Executing OPT_EXPR pass (perform const folding).
+Optimizing module systolic_array.
+
+3.21.10. Finished fast OPT passes. (There is nothing left to do.)
+
+3.22. Executing TECHMAP pass (map to technology primitives).
+
+3.22.1. Executing Verilog-2005 frontend: /share/techmap.v
+Parsing Verilog input from `/share/techmap.v' to AST representation.
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu_brent_kung'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `$__div_mod_u'.
+Generating RTLIL representation for module `$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_demux'.
+Generating RTLIL representation for module `\_90_lut'.
+Generating RTLIL representation for module `$connect'.
+Generating RTLIL representation for module `$input_port'.
+Successfully finished Verilog frontend.
+
+3.22.2. Continuing TECHMAP pass.
+Using template $paramod$fbc7873bff55778c0b3173955b7e4bce1d9d6834\_90_alu for cells of type $alu.
+Using extmapper maccmap for cells of type $macc_v2.
+  add \a_left [7:0] * \b_top [7:0] (8x8 bits, signed)
+  add \row[0].col[0].pe.a_out * \b_top [15:8] (8x8 bits, signed)
+  add \row[0].col[1].pe.a_out * \b_top [23:16] (8x8 bits, signed)
+  add \row[0].col[2].pe.a_out * \b_top [31:24] (8x8 bits, signed)
+  add \row[0].col[3].pe.a_out * \b_top [39:32] (8x8 bits, signed)
+  add \row[0].col[4].pe.a_out * \b_top [47:40] (8x8 bits, signed)
+  add \row[0].col[5].pe.a_out * \b_top [55:48] (8x8 bits, signed)
+  add \row[0].col[6].pe.a_out * \b_top [63:56] (8x8 bits, signed)
+  add \a_left [15:8] * \row[0].col[0].pe.b_out (8x8 bits, signed)
+  add \row[1].col[0].pe.a_out * \row[0].col[1].pe.b_out (8x8 bits, signed)
+  add \row[1].col[1].pe.a_out * \row[0].col[2].pe.b_out (8x8 bits, signed)
+  add \row[1].col[2].pe.a_out * \row[0].col[3].pe.b_out (8x8 bits, signed)
+  add \row[1].col[3].pe.a_out * \row[0].col[4].pe.b_out (8x8 bits, signed)
+  add \row[1].col[4].pe.a_out * \row[0].col[5].pe.b_out (8x8 bits, signed)
+  add \row[1].col[5].pe.a_out * \row[0].col[6].pe.b_out (8x8 bits, signed)
+  add \row[1].col[6].pe.a_out * \row[0].col[7].pe.b_out (8x8 bits, signed)
+  add \a_left [23:16] * \row[1].col[0].pe.b_out (8x8 bits, signed)
+  add \row[2].col[0].pe.a_out * \row[1].col[1].pe.b_out (8x8 bits, signed)
+  add \row[2].col[1].pe.a_out * \row[1].col[2].pe.b_out (8x8 bits, signed)
+  add \row[2].col[2].pe.a_out * \row[1].col[3].pe.b_out (8x8 bits, signed)
+  add \row[2].col[3].pe.a_out * \row[1].col[4].pe.b_out (8x8 bits, signed)
+  add \row[2].col[4].pe.a_out * \row[1].col[5].pe.b_out (8x8 bits, signed)
+  add \row[2].col[5].pe.a_out * \row[1].col[6].pe.b_out (8x8 bits, signed)
+  add \row[2].col[6].pe.a_out * \row[1].col[7].pe.b_out (8x8 bits, signed)
+  add \a_left [31:24] * \row[2].col[0].pe.b_out (8x8 bits, signed)
+  add \row[3].col[0].pe.a_out * \row[2].col[1].pe.b_out (8x8 bits, signed)
+  add \row[3].col[1].pe.a_out * \row[2].col[2].pe.b_out (8x8 bits, signed)
+  add \row[3].col[2].pe.a_out * \row[2].col[3].pe.b_out (8x8 bits, signed)
+  add \row[3].col[3].pe.a_out * \row[2].col[4].pe.b_out (8x8 bits, signed)
+  add \row[3].col[4].pe.a_out * \row[2].col[5].pe.b_out (8x8 bits, signed)
+  add \row[3].col[5].pe.a_out * \row[2].col[6].pe.b_out (8x8 bits, signed)
+  add \row[3].col[6].pe.a_out * \row[2].col[7].pe.b_out (8x8 bits, signed)
+  add \a_left [39:32] * \row[3].col[0].pe.b_out (8x8 bits, signed)
+  add \row[4].col[0].pe.a_out * \row[3].col[1].pe.b_out (8x8 bits, signed)
+  add \row[4].col[1].pe.a_out * \row[3].col[2].pe.b_out (8x8 bits, signed)
+  add \row[4].col[2].pe.a_out * \row[3].col[3].pe.b_out (8x8 bits, signed)
+  add \row[4].col[3].pe.a_out * \row[3].col[4].pe.b_out (8x8 bits, signed)
+  add \row[4].col[4].pe.a_out * \row[3].col[5].pe.b_out (8x8 bits, signed)
+  add \row[4].col[5].pe.a_out * \row[3].col[6].pe.b_out (8x8 bits, signed)
+  add \row[4].col[6].pe.a_out * \row[3].col[7].pe.b_out (8x8 bits, signed)
+  add \a_left [47:40] * \row[4].col[0].pe.b_out (8x8 bits, signed)
+  add \row[5].col[0].pe.a_out * \row[4].col[1].pe.b_out (8x8 bits, signed)
+  add \row[5].col[1].pe.a_out * \row[4].col[2].pe.b_out (8x8 bits, signed)
+  add \row[5].col[2].pe.a_out * \row[4].col[3].pe.b_out (8x8 bits, signed)
+  add \row[5].col[3].pe.a_out * \row[4].col[4].pe.b_out (8x8 bits, signed)
+  add \row[5].col[4].pe.a_out * \row[4].col[5].pe.b_out (8x8 bits, signed)
+  add \row[5].col[5].pe.a_out * \row[4].col[6].pe.b_out (8x8 bits, signed)
+  add \row[5].col[6].pe.a_out * \row[4].col[7].pe.b_out (8x8 bits, signed)
+  add \a_left [55:48] * \row[5].col[0].pe.b_out (8x8 bits, signed)
+  add \row[6].col[0].pe.a_out * \row[5].col[1].pe.b_out (8x8 bits, signed)
+  add \row[6].col[1].pe.a_out * \row[5].col[2].pe.b_out (8x8 bits, signed)
+  add \row[6].col[2].pe.a_out * \row[5].col[3].pe.b_out (8x8 bits, signed)
+  add \row[6].col[3].pe.a_out * \row[5].col[4].pe.b_out (8x8 bits, signed)
+  add \row[6].col[4].pe.a_out * \row[5].col[5].pe.b_out (8x8 bits, signed)
+  add \row[6].col[5].pe.a_out * \row[5].col[6].pe.b_out (8x8 bits, signed)
+  add \row[6].col[6].pe.a_out * \row[5].col[7].pe.b_out (8x8 bits, signed)
+  add \a_left [63:56] * \row[6].col[0].pe.b_out (8x8 bits, signed)
+  add \row[7].col[0].pe.a_out * \row[6].col[1].pe.b_out (8x8 bits, signed)
+  add \row[7].col[1].pe.a_out * \row[6].col[2].pe.b_out (8x8 bits, signed)
+  add \row[7].col[2].pe.a_out * \row[6].col[3].pe.b_out (8x8 bits, signed)
+  add \row[7].col[3].pe.a_out * \row[6].col[4].pe.b_out (8x8 bits, signed)
+  add \row[7].col[4].pe.a_out * \row[6].col[5].pe.b_out (8x8 bits, signed)
+  add \row[7].col[5].pe.a_out * \row[6].col[6].pe.b_out (8x8 bits, signed)
+  add \row[7].col[6].pe.a_out * \row[6].col[7].pe.b_out (8x8 bits, signed)
+Using extmapper simplemap for cells of type $sdff.
+Using extmapper simplemap for cells of type $logic_or.
+Using template $paramod\_90_fa\WIDTH=32'00000000000000000000000000010000 for cells of type $fa.
+Using template $paramod$6df0329addda9228fcc2546de2aaf14ad26c98e1\_90_alu for cells of type $alu.
+Using extmapper simplemap for cells of type $and.
+Using extmapper simplemap for cells of type $not.
+Using extmapper simplemap for cells of type $mux.
+Using extmapper simplemap for cells of type $pos.
+Using template $paramod\_90_fa\WIDTH=32'00000000000000000000000000100000 for cells of type $fa.
+Using template $paramod\_90_lcu_brent_kung\WIDTH=32'00000000000000000000000000100000 for cells of type $lcu.
+Using extmapper simplemap for cells of type $xor.
+Using extmapper simplemap for cells of type $or.
+Using template $paramod\_90_lcu_brent_kung\WIDTH=32'00000000000000000000000000010000 for cells of type $lcu.
+No more expansions possible.
+<suppressed ~18830 debug messages>
+
+3.23. Executing OPT pass (performing simple optimizations).
+
+3.23.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module systolic_array.
+<suppressed ~28160 debug messages>
+
+3.23.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\systolic_array'.
+Computing hashes of 58433 cells of `\systolic_array'.
+Finding duplicate cells in `\systolic_array'.
+Computing hashes of 56129 cells of `\systolic_array'.
+Finding duplicate cells in `\systolic_array'.
+Computing hashes of 54657 cells of `\systolic_array'.
+Finding duplicate cells in `\systolic_array'.
+Computing hashes of 54017 cells of `\systolic_array'.
+Finding duplicate cells in `\systolic_array'.
+Computing hashes of 53633 cells of `\systolic_array'.
+Finding duplicate cells in `\systolic_array'.
+Computing hashes of 53185 cells of `\systolic_array'.
+Finding duplicate cells in `\systolic_array'.
+Computing hashes of 52801 cells of `\systolic_array'.
+Finding duplicate cells in `\systolic_array'.
+Computing hashes of 52609 cells of `\systolic_array'.
+Finding duplicate cells in `\systolic_array'.
+<suppressed ~17472 debug messages>
+Removed a total of 5824 cells.
+
+3.23.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+3.23.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \systolic_array..
+Removed 5312 unused cells and 11840 unused wires.
+<suppressed ~5313 debug messages>
+
+3.23.5. Finished fast OPT passes.
+
+3.24. Executing HIERARCHY pass (managing design hierarchy).
+Attribute `top' found on module `systolic_array'. Setting top module to systolic_array.
+
+3.24.1. Analyzing design hierarchy..
+Top module:  \systolic_array
+
+3.24.2. Analyzing design hierarchy..
+Top module:  \systolic_array
+Removed 0 unused modules.
+
+3.25. Printing statistics.
+
+=== systolic_array ===
+
+        +----------Local Count, excluding submodules.
+        | 
+    11767 wires
+    73028 wire bits
+      758 public wires
+     9411 public wire bits
+        6 ports
+     2179 port bits
+    47297 cells
+    20928   $_AND_
+      512   $_NOT_
+     7809   $_OR_
+     3968   $_SDFF_PP0_
+    14016   $_XOR_
+       64   $scopeinfo
+
+3.26. Executing CHECK pass (checking for obvious problems).
+Checking module systolic_array...
+Found and reported 0 problems.
+
+4. Executing CHECK pass (checking for obvious problems).
+Checking module systolic_array...
+Found and reported 0 problems.
+
+5. Printing statistics.
+
+=== systolic_array ===
+
+        +----------Local Count, excluding submodules.
+        | 
+    11767 wires
+    73028 wire bits
+      758 public wires
+     9411 public wire bits
+        6 ports
+     2179 port bits
+    47297 cells
+    20928   $_AND_
+      512   $_NOT_
+     7809   $_OR_
+     3968   $_SDFF_PP0_
+    14016   $_XOR_
+       64   $scopeinfo
+
+6. Executing JSON backend.

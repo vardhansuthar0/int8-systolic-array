@@ -1,0 +1,1 @@
+read_verilog -sv -DSYNTHESIS rtl/mac_pe.sv build/array_n4_p0.sv; synth -top systolic_array -flatten -noabc; check -assert; stat; write_json reports/synth_n4_p0.json

@@ -1,0 +1,2 @@
+numpy==2.3.5
+verilator==5.48.0

@@ -1,0 +1,21 @@
+* Five-stage CMOS ring oscillator; illustrative level-1 models, NOT a foundry PDK.
+.param VDD=@VDD@
+VDD vdd 0 {VDD}
+.model NM NMOS (LEVEL=1 VTO=@VTO@ KP=@KPN@ GAMMA=0.4 PHI=0.7 LAMBDA=0.04)
+.model PM PMOS (LEVEL=1 VTO=-@VTO@ KP=@KPP@ GAMMA=0.4 PHI=0.7 LAMBDA=0.04)
+.subckt inv a y vdd
+Mn y a 0 0 NM W=1u L=0.18u
+Mp y a vdd vdd PM W=2u L=0.18u
+Cl y 0 10f
+.ends inv
+X1 n5 n1 vdd inv
+X2 n1 n2 vdd inv
+X3 n2 n3 vdd inv
+X4 n3 n4 vdd inv
+X5 n4 n5 vdd inv
+.ic V(n1)=0 V(n2)=1.8 V(n3)=0 V(n4)=1.8 V(n5)=0
+.temp @TEMP@
+.tran 1p 20n uic
+.measure tran period TRIG v(n1) VAL='VDD/2' RISE=20 TARG v(n1) VAL='VDD/2' RISE=21
+.measure tran avg_supply_current AVG i(VDD) FROM=5n TO=20n
+.end
