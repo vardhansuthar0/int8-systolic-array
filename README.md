@@ -1,6 +1,6 @@
 # Parameterized INT8 systolic array
 
-An educational, AI-assisted SystemVerilog implementation with executable RTL regression, a NumPy reference, simulation assertions, mutation testing, and an illustrative CMOS ring oscillator.
+An SystemVerilog implementation with executable RTL regression, a NumPy reference, simulation assertions, mutation testing, and an illustrative CMOS ring oscillator.
 
 ## Architecture
 
